@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificación de edad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(../../Los%20Acantos/Botellas/7MS6UKWTEZAC5EUSIHRVSXQEPU.webp);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .bottom-question {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <img src="images/logogrande.jpg" alt="Logo" class="logo">
+        <div class="question">¿Eres mayor de edad para beber alcohol?</div>
+        <div class="buttons">
+            <button onclick="window.location.href='home.html'">SI</button>
+            <button onclick="window.location.href='no.html'">NO</button>
+        </div>
+        <div class="bottom-question">Are you old enough for drinking alcohol?</div>
+        <div class="buttons">
+            <button onclick="window.location.href='home.html'">YES</button>
+            <button onclick="window.location.href='no.html'">NO</button>
+        </div>
+    </div>
+</body>
+</html>
